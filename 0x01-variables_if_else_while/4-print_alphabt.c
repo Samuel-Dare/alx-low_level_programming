@@ -1,5 +1,5 @@
-#include <std.io.h>
-#include <std.lib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - Entry point
@@ -15,9 +15,9 @@ int main(void)
 	{
 		if (alpha != 'e' && alpha != 'q')
 		{
-			putchar(alpha)
+			putchar(alpha);
 		}
 	}
-	putchar('\n')
-	return (0)
+	putchar('\n');
+	return (0);
 }
